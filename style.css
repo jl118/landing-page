@@ -1,0 +1,154 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    position: relative;
+    font-size: 20px;
+    background-color: seashell;
+    color: rgb(56, 34, 34);
+}
+
+h1, h2 {
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: seashell;
+}
+
+main {
+    padding: 50px 0;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.textRight {
+    text-align: right;
+}
+
+li {
+    display: inline;
+    padding: 0pc 20px;
+    text-decoration: none;
+}
+
+header, footer {
+    background-color: rgb(25, 66, 25);
+    color: seashell;
+    width: 100%;
+    height: 50px;
+}
+
+header {
+    position: fixed;
+    color: seashell;
+    border-bottom: 5px solid burlywood;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.comingSoon {
+    font-size: 24px; 
+    padding-top: 40px;
+    font-weight: bolder;
+    color: burlywood;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(56, 34, 34);
+    border: 3px solid burlywood;
+    margin: auto; 
+}
+
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(56, 34, 34);
+    border: 6px solid rgb(25, 66, 25);
+    margin: auto;
+    padding-top: 20px;
+}
+
+.box2 {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(56, 34, 34);
+    border: 8px solid peachpuff;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.box3 {
+    width: 290px;
+    height: 290px;
+    background-color: rgb(56, 34, 34);
+    margin: auto;
+    padding-top: 20px;
+}
+
+figcaption {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+section {
+    background-color: peachpuff;
+    padding: 10px;
+    border-top: 5px solid burlywood;
+    margin: auto;
+}
+
+form {
+    margin: 0 auto;
+    border-radius: 20px;
+    border: 3px solid burlywood;
+    padding: 10px;
+    width: 450px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+}
+
+input {
+    box-sizing: border-box;
+    width: 250px;
+    border: 1px solid rgb(56, 34, 34);
+}
+
+textarea {
+    vertical-align: top;
+    box-sizing: border-box;
+    height: 60px;
+    width: 275px;
+}
+
+button {
+    background-color: rgb(56, 34, 34);
+    color: seashell;
+    height: 35px;
+    width: 100px;
+    margin-top: 3px;
+}
+
+footer {
+    color: seashell;
+    background-color: rgb(25, 66, 25);
+    padding: 15px;
+    text-align: center;
+    border-bottom: 5px solid rgb(56, 34, 34);
+    position: absolute;
+    margin-top: 0;
+    bottom: 0;
+}
+
+a:hover {
+    color: lightseagreen;
+   }
